@@ -6,7 +6,7 @@
             * {
                 box-sizing: border-box;    
             }
-            figure {
+            div,figure {
                position: absolute;
                top: 50%;
                left: 50%;
@@ -15,16 +15,14 @@
                margin-top: -250px; /* Half the height */
                margin-left: -250px; /* Half the width */
             }
-            h1 {
-            	position: absolute;
-            	top:50%;
-            	left:50%;
-            }
         </style>
+        <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
 </head>
 <body>
+<div class="spinner">
+    Loading...
+</div>
 <figure>
-<h1> Fetching XKCD image like a cool kid, with ES6 + JSPM </h1>
 </figure>
 </body>
 <script src="jspm_packages/system.js" type="text/javascript" charset="utf-8"></script>
