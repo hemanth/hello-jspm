@@ -19,4 +19,4 @@ TODO:
 * :lipstick:
 
 
-P.S: This piece of work was influenced by @geelen 's [loopgifs](https://github.com/geelen/loopgifs)
+P.S: This piece of work was influenced by Glen Maddern's [loopgifs](https://github.com/geelen/loopgifs)
