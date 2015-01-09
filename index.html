@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch XKCD Images like a cool kid, with ES6</title>
+    <style>
+            * {
+                box-sizing: border-box;    
+            }
+            figure {
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               width: 500px;
+               height: 500px;
+               margin-top: -250px; /* Half the height */
+               margin-left: -250px; /* Half the width */
+            }
+            h1 {
+            	position: absolute;
+            	top:50%;
+            	left:50%;
+            }
+        </style>
+</head>
+<body>
+<figure>
+<h1> Fetching XKCD image like a cool kid, with ES6 + JSPM </h1>
+</figure>
+</body>
+<script src="jspm_packages/system.js" type="text/javascript" charset="utf-8"></script>
+<script src="config.js" type="text/javascript" charset="utf-8"></script>
+<script>
+System.import('lib/main');
+</script>
+</html>

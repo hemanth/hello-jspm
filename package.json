@@ -1,0 +1,8 @@
+{
+  "jspm": {
+    "name": "hello-jspm",
+    "dependencies": {
+      "fetch": "github:github/fetch@^0.4.0"
+    }
+  }
+}
